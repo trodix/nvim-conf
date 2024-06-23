@@ -30,6 +30,7 @@ nnoremap <silent> <C-Left> :bp<CR>
 
 lua require("mason").setup()
 lua require("mason-lspconfig").setup()
+lua require("config/lspconfig")
 lua require("config/mason-lspconfig-handlers")
 lua require('config/treesitter')
 lua require('config/nvim-cmp')
