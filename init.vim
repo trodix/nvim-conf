@@ -16,6 +16,7 @@ Plug 'nvim-lualine/lualine.nvim' " status bar + open file tabs
 Plug 'nvim-tree/nvim-web-devicons' " nerd icons
 Plug 'mfussenegger/nvim-lint' " highliter pour credo (analyse static de code)
 Plug 'elixir-tools/elixir-tools.nvim'
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 
@@ -23,6 +24,7 @@ call plug#end()
 "let mapleader = ","
 "nnoremap <leader>f :Telescope find_files<CR>
 nnoremap <silent> <C-e> :Telescope find_files<CR>
+nnoremap <silent> <C-f> :Telescope live_grep<CR>
 " switch tabs with left/right arrows
 nnoremap <silent> <C-Right> :bn<CR>
 nnoremap <silent> <C-Left> :bp<CR>
@@ -39,5 +41,5 @@ lua require('config/lualine')
 lua require('config/elixir-tools')
 lua require('lint').linters_by_ft = { elixir = {'credo'}}
 
-set number
-
+set number " display line numbers in gutter
+set updatetime=100 " trigger git change gutter status after 100ms
