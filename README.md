@@ -1,5 +1,7 @@
 # NEOVIM CONFIG
 
+![Screenshot Neovim](./screenshot-nvim.png)
+
 ## Setup
 
 Extract this in `~/.config/nvim/` as `git clone git@github.com:trodix/nvim-conf.git .`
