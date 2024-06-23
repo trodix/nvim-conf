@@ -19,21 +19,23 @@ Extract this in `~/.config/nvim/` as `git clone git@github.com:trodix/nvim-conf.
 
 ### Shortcuts
 
-| KeyBinding    | Description                            |
-|---------------|----------------------------------------|
-| Ctrl + e      | Search files                           |
-| Ctrl + f      | Search text in files                   |
-| u             | Undo                                   |
-| Ctrl + r      | Redo                                   |
-| dd            | Cut 1 line                             |
-| 5dd           | Cut 5 lines                            |
-| yy            | Copy 1 line                            |
-| 5yy           | Copy 5 lines                           |
-| p             | Paste (before cursor)                  |
-| Ctrl + z      | Send nvim to the background            |
-| fg            | Retrieve backgroud session             |
-| Ctrl + Left   | Navigate to prev tab                   |
-| Ctrl + Right  | Navigate to next tab                   |
+| KeyBinding        | Description                            |
+|-------------------|----------------------------------------|
+| Ctrl + e          | Search files                           |
+| Ctrl + f          | Search text in files                   |
+| u                 | Undo                                   |
+| Ctrl + r          | Redo                                   |
+| dd                | Cut 1 line                             |
+| 5dd               | Cut 5 lines                            |
+| yy                | Copy 1 line                            |
+| 5yy               | Copy 5 lines                           |
+| p                 | Paste (before cursor)                  |
+| Ctrl + z          | Send nvim to the background            |
+| fg                | Retrieve backgroud session             |
+| Ctrl + Left/Right | Navigate to prev tab                   |
+| 5j                | Go to 5 lines to bottom from cursor    |
+| 5k                | Go to 5 lines to top from cursor       |
+| Shift + Up/Down   | Move selected lines to UP/DOWN         |
 
 ### Combo keys
 

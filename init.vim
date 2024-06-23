@@ -20,14 +20,6 @@ Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 
-" search
-nnoremap <silent> <C-e> :Telescope find_files<CR>
-nnoremap <silent> <C-f> :Telescope live_grep<CR>
-
-" switch tabs with left/right arrows
-nnoremap <silent> <C-Right> :bn<CR>
-nnoremap <silent> <C-Left> :bp<CR>
-
 lua require("mason").setup()
 lua require("mason-lspconfig").setup()
 lua require("config/lspconfig")
@@ -40,5 +32,6 @@ lua require('config/lualine')
 lua require('config/elixir-tools')
 lua require('config/lint')
 
-set number " display line numbers in gutter
-set updatetime=100 " trigger git change gutter status after 100ms
+lua require('config/set')
+lua require('config/remap')
+
