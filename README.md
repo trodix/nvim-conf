@@ -19,16 +19,16 @@ Extract this in `~/.config/nvim/` as `git clone git@github.com:trodix/nvim-conf.
 
 ### Shortcuts
 
-|  KeyBinding   |                                        |
+| KeyBinding    | Description                            |
 |---------------|----------------------------------------|
 | Ctrl + e      | Search files                           |
 | Ctrl + f      | Search text in files                   |
 | u             | Undo                                   |
 | Ctrl + r      | Redo                                   |
 | dd            | Cut 1 line                             |
-| dd5           | Cut 5 lines                            |
+| 5dd           | Cut 5 lines                            |
 | yy            | Copy 1 line                            |
-| yy5           | Copy 5 lines                           |
+| 5yy           | Copy 5 lines                           |
 | p             | Paste (before cursor)                  |
 | Ctrl + z      | Send nvim to the background            |
 | fg            | Retrieve backgroud session             |
@@ -37,5 +37,17 @@ Extract this in `~/.config/nvim/` as `git clone git@github.com:trodix/nvim-conf.
 
 ### Combo keys
 
-**Comment lines: ** `Ctrl + v` in default mode to enter in visual mode then `Down` to select lines then `Shift + i` to enter insert mode then `#` or `//` on the current line then `Esc` to apply to all selected lines
+#### Comment lines:
+
+- `Ctrl` + `v` in default mode to enter in visual mode
+- `Down` to select lines
+- `Shift` + `i` to enter insert mode
+- `#` or `//` on the current line
+- `Esc` to apply to all selected lines
+
+#### Uncomment lines:
+
+- `Ctrl` + `v` in default mode to enter in visual mode
+- `Down` to select lines
+- `x` to delete 1st character
 
