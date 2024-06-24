@@ -1,3 +1,4 @@
+
 call plug#begin()
 
 Plug 'williamboman/mason-lspconfig.nvim' " lspconfig via mason 
