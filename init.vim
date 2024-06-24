@@ -18,6 +18,8 @@ Plug 'mfussenegger/nvim-lint' " highliter
 Plug 'elixir-tools/elixir-tools.nvim' " install credo-language-server (analyse static de code)
 Plug 'airblade/vim-gitgutter'
 Plug 'rmagatti/auto-session'
+Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'windwp/nvim-autopairs'
 
 call plug#end()
 
@@ -30,6 +32,8 @@ lua require('config/nvim-cmp')
 lua require('config/conform')
 lua require('config/lualine')
 lua require('config/auto-session')
+lua require('config/indent-blankline')
+lua require('config/autopairs')
 
 lua require('config/elixir-tools')
 lua require('config/lint')
