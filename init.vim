@@ -17,6 +17,7 @@ Plug 'nvim-tree/nvim-web-devicons' " nerd icons
 Plug 'mfussenegger/nvim-lint' " highliter
 Plug 'elixir-tools/elixir-tools.nvim' " install credo-language-server (analyse static de code)
 Plug 'airblade/vim-gitgutter'
+Plug 'rmagatti/auto-session'
 
 call plug#end()
 
@@ -28,6 +29,7 @@ lua require('config/treesitter')
 lua require('config/nvim-cmp')
 lua require('config/conform')
 lua require('config/lualine')
+lua require('config/auto-session')
 
 lua require('config/elixir-tools')
 lua require('config/lint')

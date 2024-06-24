@@ -36,6 +36,10 @@ Extract this in `~/.config/nvim/` as `git clone git@github.com:trodix/nvim-conf.
 | 5j                | Go to 5 lines to bottom from cursor    |
 | 5k                | Go to 5 lines to top from cursor       |
 | Shift + Up/Down   | Move selected lines to UP/DOWN         |
+| Ctrl + w          | Close current tab                      |
+| :SessionSave      | Create/Save a session                  |
+| :SessionDelete    | Delete a session                       |
+| Ctrl + s          | Search sessions                        |
 
 ### Combo keys
 

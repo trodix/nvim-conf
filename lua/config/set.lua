@@ -31,3 +31,5 @@ vim.opt.signcolumn = "yes"
 vim.opt.colorcolumn = "160"
 
 vim.opt.clipboard:append("unnamedplus") -- use system clipboard
+
+vim.opt.sessionoptions="blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions"
