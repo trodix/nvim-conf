@@ -40,6 +40,9 @@ Extract this in `~/.config/nvim/` as `git clone git@github.com:trodix/nvim-conf.
 | :SessionSave      | Create/Save a session                  |
 | :SessionDelete    | Delete a session                       |
 | Ctrl + s          | Search sessions                        |
+| Ctrl + w + v      | Split Vertically                       |
+| Ctrl + w + s      | Split horizontally                     |
+| Ctrl + w + q      | Close selected splitted window         |
 
 ### Combo keys
 
